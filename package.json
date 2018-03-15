@@ -33,9 +33,6 @@
     "postcss": "^6.0.19",
     "postcss-partial-import": "^4.1.0"
   },
-  "bugs": {
-    "url": ""
-  },
   "homepage": "",
   "main": "gulpfile.js",
   "devDependencies": {},
