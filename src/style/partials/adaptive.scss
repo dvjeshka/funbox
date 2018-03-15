@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+  .product-list__list {display: block}
+}
+@media (max-width: 767px) {
+  html, body { min-width: 320px; }
+  .g-grid {padding-left: 7px;padding-right: 7px}
+  #g-content{height: auto}
+  .product-list,#g-content {
+    display: block;
+  }
+  .product-list__list { display: block; margin: 0; }
+}
+
+
+
+

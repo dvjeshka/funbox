@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+    <head>
+        <title>.markup</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="" />
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="shortcut icon" href="./favicon.ico" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <script src="./js/plugins.js"></script>
+        <script src="./js/main.js"></script>
+        <!--[if IE]>
+        <meta http-equiv="imagetoolbar" content="no" />
+        <![endif]-->
+    </head>
+    <body>
+        <div id="g-wrap" class="page-wrap">
+            <header id="g-header" class="header"></header>
+            <main id="g-content">
+                {% block content%}{% endblock %}
+            </main><!-- /#g-content -->
+            <footer id="g-footer" class="footer"></footer>
+
+        </div><!-- /#g-wrap -->
+         {% include "template/popup.html" %}
+</body>
+</html>
+
+
+

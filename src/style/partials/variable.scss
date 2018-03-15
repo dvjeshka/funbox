@@ -1,0 +1,15 @@
+$clr1:white;
+$clr2:#666;
+$clr3:#000;
+$clr4:#1698d9;
+$clr5:#d9d9d9;
+$clr6:#ff6;
+$clr7:#d91667;
+$br:12px;
+
+%text-ovetflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+%op-hide {opacity: 0;visibility: hidden}

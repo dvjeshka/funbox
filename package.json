@@ -1,0 +1,47 @@
+{
+  "name": "roman",
+  "version": "1.0.1",
+  "description": "boilerplate for html+js+css apps",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssbeautify": "^1.0.0",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-nunjucks": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.2.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uncss": "^1.0.5",
+    "gulp-unused-images": "^1.1.1",
+    "gulp-watch": "^5.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "npm": "^5.7.1",
+    "postcss": "^6.0.19",
+    "postcss-partial-import": "^4.1.0"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "main": "gulpfile.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
